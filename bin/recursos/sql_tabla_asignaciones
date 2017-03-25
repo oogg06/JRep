@@ -1,0 +1,9 @@
+create table if not exists asignaciones (
+	ID 				INTEGER PRIMARY KEY   AUTOINCREMENT,
+	id_profesor 	integer,
+	id_modulo		integer,
+	id_reparto		integer,
+	foreign key (id_profesor) references profesores(id),
+	foreign key (id_modulo) references modulos(id),
+	foreign key (id_reparto) references repartos(id)
+);

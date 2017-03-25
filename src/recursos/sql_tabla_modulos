@@ -1,0 +1,7 @@
+create table if not exists modulos (
+	ID 			INTEGER PRIMARY KEY   AUTOINCREMENT,
+	horas		integer,
+	nombre		varchar(30),
+	ciclo			varchar(10),
+	curso		integer
+);

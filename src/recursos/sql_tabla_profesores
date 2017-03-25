@@ -1,0 +1,5 @@
+create table if not exists profesores (
+	ID 			INTEGER PRIMARY KEY   AUTOINCREMENT,
+	nombre		varchar(30),
+	horas		integer
+);

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox id="vboxCuadroProfesores" prefHeight="200.0" prefWidth="100.0" />
+            <VBox id="vBoxCuadroAsignaturas" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <HBox id="hboxControlesConfiguracion" prefHeight="100.0" prefWidth="200.0" />
+                  <FlowPane id="contenedorModulos" prefHeight="200.0" prefWidth="200.0" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>
